@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object info h/w</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body class="bg-success bg-opacity-25">
+  <div class="container row mt-5 mx-auto">
+    <h1 class="contact-heading text-center m-0 fw-bold">Welcome to your contact list!</h1>
+    <form class="contact-form col-6 mt-5" autocomplete="off">
+      <label class="fw-bold h3 mb-4">
+        Enter your name!
+
+        <input class="name-taker d-block mt-2 rounded-3 border-2 shadow" type="text" required placeholder="Fazliddin">
+      </label>
+
+      <label class="fw-bold h3 mb-4">
+        Enter your surname!
+
+        <input class="surname-taker d-block mt-2 rounded-3 border-2 shadow" type="text" required placeholder="Rustamov">
+      </label>
+
+      <label class="fw-bold h3 mb-4">
+        Enter your relationship!
+
+        <input class="relation-taker d-block mt-2 rounded-3 border-2 shadow" type="text" required placeholder="Brother">
+      </label>
+
+      <label class="fw-bold h3">
+        Enter your phone number!
+
+        <input class="phone-taker d-block mt-2 rounded-3 border-2 shadow" type="number" required placeholder="+998974120402">
+      </label>
+
+      <button class="send-btn d-block mt-4 rounded-3 pt-2 pb-2 ps-3 pe-3 shadow fw-bold bg-white" type="submit">Add contact!</button>
+    </form>
+
+    <ul class="result-list col-6 list-unstyled mt-5">
+    </ul>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
